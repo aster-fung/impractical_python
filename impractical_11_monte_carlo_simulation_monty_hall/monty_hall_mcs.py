@@ -1,3 +1,9 @@
+"""
+this script is a standalone program that solves the Monty Hall problem with Monte Carlo Stimulation approach: it automates the process of choosing doors and recording results in a Monty Hall Program. The program returns probabilty of winning with decision switch or no-switch.
+
+The Monty Hall Problem:
+There are 3 doors. Only 1 of the 3 doors has the prize behind. Users are asked to choose 1 of the doors to open. Of one of the remaining 2 doors, one of them will reveal a stinky goat for sure. The player is asked if they decided to stay with the previous pick, or reselect the door(the remaining door that did not reveal the stinky goat.
+"""
 import random
 
 

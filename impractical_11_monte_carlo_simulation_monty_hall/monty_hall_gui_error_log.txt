@@ -1,0 +1,190 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/Activate.ps1
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_ulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, i
+    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 28, i
+    img = tk.PhotoImage(file='all_closed.png')
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4064, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4009, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "all_closed.png": no such file or directory
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_ulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, i
+    self.create_widgets()
+    img = tk.PhotoImage(file='D:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\all_clos
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4064, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4009, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "D:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hallll_cl
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_ulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, i
+    self.create_widgets()
+    img = tk.PhotoImage(file='all_closed.png')
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4064, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4009, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "all_closed.png": no such file or directory
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_ulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, i
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 28, i    img = tk.PhotoImage(file='all_closed.png')
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4064, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4009, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "all_closed.png": no such file or directory
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 28, i    img = tk.PhotoImage(file='impractical_11_monte_carlo_stimulation_monty_hall\all_closed.png')
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4064, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4009, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "impractical_11_monte_carlo_stimulation_monty_hallll_closed.png": no such file or directory 
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 28, i    img = tk.PhotoImage(file='impractical_11_monte_carlo_simulation_monty_hall\all_closed.png')
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4064, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4009, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "impractical_11_monte_carlo_simulation_monty_hallll_closed.png": no such file or directory  
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 49, in create_widgets
+    command= self.win_reveal())
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 112, 
+in win_reveal
+    self.yes.config(state='normal')
+AttributeError: 'Game' object has no attribute 'yes'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 49, in create_widgets
+    command= self.win_reveal())
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 112, 
+in win_reveal
+    self.yes.config(state='normal')
+AttributeError: 'Game' object has no attribute 'yes'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 172, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 49, in create_widgets
+    command= self.win_reveal())
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 112, 
+in win_reveal
+    self.yes.config(state='normal')
+AttributeError: 'Game' object has no attribute 'yes'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 174, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 49, in create_widgets
+    command= self.win_reveal())
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 114, 
+in win_reveal
+    self.yes.config(state='normal')
+AttributeError: 'Game' object has no attribute 'yes'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 174, 
+in <module>
+    game = Game(root)
+n __init__
+    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 44, in create_widgets
+    yes = tk.Radiobutton(self.parent, state='disabled', text='Y', variable=self.change_door, value='y', command=self.show_final)
+AttributeError: 'Game' object has no attribute 'change_door'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 181, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 56, in create_widgets
+    command= self.win_reveal())
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 123, 
+in win_reveal
+    self.change_door.set(None)
+AttributeError: 'Game' object has no attribute 'change_door'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 181, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, i    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 77, in create_widgets
+    defaultbg = self.parent.cgnet('bg')         # get the background color of the root window
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 2354, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'cgnet'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 181, 
+in <module>
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 79, in create_widgets
+    bg=defaultbg, fg='black', borderwidth=0)
+NameError: name 'defaultbg' is not defined
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 180, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, i    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 77, in create_widgets
+    self.defaultbg = self.parent.cgnet('bg')         # get the background color of the root window
+  File "C:\Users\User\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 2354, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'cgnet'
+(venv) PS D:\python_learning\impractical_python> & D:/python_learning/venv/Scripts/python.exe d:/python_learning/impractical_python/impractical_11_monte_carlo_simulation_monty_hall/monty_hall_gui.py
+Traceback (most recent call last):
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 180, 
+in <module>
+    game = Game(root)
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 20, in __init__
+    self.create_widgets()
+  File "d:\python_learning\impractical_python\impractical_11_monte_carlo_simulation_monty_hall\monty_hall_gui.py", line 89, in create_widgets
+    self.unchanged_wins_txt.grid(row=1, column=5, columnspan=5)
+AttributeError: 'Game' object has no attribute 'unchanged_wins_txt'
+(venv) PS D:\python_learning\impractical_python>         

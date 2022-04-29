@@ -60,22 +60,57 @@ def count_bday_match(popul, bdays):
         popul_match = 2*(popul - unique_bdays_count)
     else:
         popul_match = 0
-    # print('number of unique bdays: ', unique_bdays_count)
-    #print('total ppl in the room: ', popul)
-    #print('shared bday ppl no: ',popul_match)
+    #s print('number of unique bdays: ', unique_bdays_count)
+    #s print('total ppl in the room: ', popul)
+    #s print('shared bday ppl no: ',popul_match)
     return popul_match
 
-def polling(popul, master_dict_list):
-    polled_dict = {}
-    for iteration in master_dict_list:
-        for total, match in iteration:
-            polled_dict.add(total,None)
+def zero_cleanup(total, match):
+    """
+    removes 0s from match to avoid ZeroDivisionError when it comes to probability calculation
+    removes value in totalcorresponding to the same of index position of that element removed from the match list 
+    (better avoid try/except)
 
 
+    param:
+    total: 1D list of int
+    match: 1D list of int. shld be same len as total
 
-            True
-    return None
+    return:
+    total, match with 0 removed
+    """
+    i = 0
+    for value in total:
+        if value == 0:
+            del total[i]
+            del match[i]
+        i +=1
+    check = len(total) == len(match)
+    print("lenisequal", check)
+    print ('0 in total: ', 0 in total)
+    print('0 in match: ', 0 in match)
+    print('------')
+    return total, match
 
+"""
+def generate_probi_list(total_list, match_list):
+    
+    param: 
+    total_list: 1D list: no of ppl in the room 
+    match_list: 1D list: no of ppl with matching bdays corresponding to total 
+    
+    prob_list = []
+    for i in range(1, len(total_list)):
+        # try:
+        print('match: ', match_list[i], 'total: ', total_list[i])
+        prob = match_list[i]/total_list[i]
+        prob_list.append(prob)
+        # except ZeroDivisionError: 
+        #    pass
+    print('probaility:')
+    print(prob_list[0:5])
+    return prob_list 
+"""
 
 
 def main():
@@ -95,47 +130,31 @@ def main():
         except ValueError:
             print('please input integers only')
             continue
-        
-
     
-    total_turn = 0                              # total no of iteration for monitoring
-    total_popul_list_part_key = []              # key to zip total no. of ppl in the room
-    match_popul_list_part_value = []            # value to zip no of ppl who have matches
-    master_dict_list = []                       # to store all total:match dicts
-                                                # [{m:d, m,d,...},
-                                                #  {m:d, m,d,...},
-                                                #  {m:d, m,d,...},   
-                                                #   ...
-                                                #  {m:d, m,d,...}]
-
-    for turn in range(simulation_cycles):
+    total_turn = 0                       # total no of iteration for monitoring
+    total_popul_per_iter = []            # 'key' to zip total no. of ppl in the room
+    match_popul_per_iter = []            # 'value' to zip no of ppl who have matches
+    
+    for iter in range(simulation_cycles):
+        probi_per_iter = []
         for popul in range(0,popul_range+2,2):
             total_turn += 1
-            #print('total turn: ', total_turn)
-            #print('iterate cycle: ', turn+1)
+            # print('total turn: ', total_turn)
+            # print('iterate cycle: ', turn+1)
             
             bdays = generate_bdays(popul)                          
             popul_match = count_bday_match(popul, bdays)           
-            total_popul_list_part_key.append(popul)
-            match_popul_list_part_value.append(popul_match)
-            #print('key: ', total_popul_list_part_key)
-            #print('key len', len(total_popul_list_part_key))
-            #print('value:', match_popul_list_part_value)
-            #print('value len', len(match_popul_list_part_value))
-
-        dict_per_iteration = {total: match for total, match in zip(total_popul_list_part_key, match_popul_list_part_value)}
-        del dict_per_iteration[0]                   # quick fix clean up
-        # print(dict_per_iteration)
-        master_dict_list.append(dict_per_iteration) 
-    
-    for iteration in master_dict_list:
-        print('\n')
-        print(iteration)
-    
-
-    
-
-             
+            total_popul_per_iter.append(popul)
+            match_popul_per_iter.append(popul_match)
+            #print('total ppl')
+            print(total_popul_per_iter)
+            #print(len(total_popul_per_iter))
+            # print('match')
+            print(match_popul_per_iter)
+            #print(len(match_popul_per_iter))
+            
+        total_popul_per_iter, match_popul_per_iter = zero_cleanup(total_popul_per_iter,match_popul_per_iter)   
+        # probi_per_iter = generate_probi_list(total_popul_per_iter, match_popul_per_iter)
 
 if __name__ == '__main__':
     main()
